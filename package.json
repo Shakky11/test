@@ -1,0 +1,30 @@
+{
+  "name": "anti-spammer",
+  "version": "1.0.0",
+  "description": "Anti sapmming relaated website.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shakky11/anti-spammer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shakky11/anti-spammer/issues"
+  },
+  "homepage": "https://github.com/Shakky11/anti-spammer#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "request": "^2.88.0",
+    "tape": "^4.11.0"
+  },
+  "devDependencies": {}
+}
